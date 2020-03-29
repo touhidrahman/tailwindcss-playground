@@ -10,47 +10,137 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
         />
     </head>
-    <body class="bg-gray-100">
-        <div class="">
-            <header
-                class="bg-gray-100 shadow-md -mr-2 sm:flex sm:justify-between"
-            >
-                <div class="flex items-center justify-between ">
-                    <div>
-                        <img
-                            src="./assets/logo/ndb-logo-svg.svg"
-                            class="m-2 mx-4 h-12"
-                            alt="NatokDB_logo"
-                        />
+    <body class="bg-gray-100 antialiased">
+        <header class="bg-black ">
+            <div class="flex items-center justify-between py-4 container mx-auto">
+                <div class="max-w-32">
+                    <img src="http://placehold.it/120x40" alt="logo">
+                </div>
+
+                <div class="flex items-center">
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4">Link 1</a>
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4">Link 2</a>
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4">Link 3</a>
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4">Link 4</a>
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4 border-2 border-gray-400 rounded hover:border-gray-100">Login</a>
+                    <a href="#" class="inline-block text-gray-400 hover:text-gray-100 transition px-2 py-1 mr-4">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Location meta -->
+        <section class="bg-gray-400">
+            <div class="flex items-center text-gray-700 text-sm py-2 container mx-auto">
+                <div class="mr-12"><i class="fas fa-calendar text-red-700"></i><span class="ml-3">Monday 24 Aug 2030</span></div>
+                <div class="mr-12"><i class="fas fa-map-marker text-red-700"></i><span class="ml-3">Cologne, Germany</span></div>
+                <div class="mr-12"><i class="fas fa-cloud text-red-700"></i><span class="ml-3">18&deg;C, Sunny</span></div>
+            </div>
+        </section>
+
+        <!-- Main page top gallery -->
+        <section class="bg-gray-200 py-16">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-4 grid-rows-2 gap-1">
+                    <div class="col-span-2 row-span-2 relative">
+                        <figure>
+                            <img src="http://placehold.it/800x500" alt="main story" class="w-full h-96 object-cover">
+                        </figure>
+                        <!-- Headline Overlay :Big -->
+                        <div class="absolute bottom-0 left-0 overflow-hidden p-4 w-full bg-opaque-40">
+                            <!-- Tag -->
+                            <div class="mb-2">
+                                <a class="bg-red-700 text-red-100 py-1 px-2 uppercase">Science</a>
+                            </div>
+
+                            <div class="mb-2 text-sm text-gray-400">
+                                By <a href="" class="font-semibold hover:text-gray-200 cursor-pointer">Author Name</a>
+                                <span class="ml-6">
+                                    <i class="fa fa-calendar-alt mr-3"></i>
+                                    22 Aug 2030
+                                </span>
+                            </div>
+                            <h2 class="leading-none text-2xl text-gray-200 hover:text-gray-100 cursor-pointer">
+                                Asperiores est nulla voluptas nihil eligendi inventore. 
+                            </h2>
+                        </div>
                     </div>
-                    <div class="sm:hidden">
-                        <button
-                            class="mr-4 text-red-700 focus: text-red-300 focus:outline-none hover:text-red-500"
-                        >
-                            <i class="fas fa-bars text-2xl"></i>
-                        </button>
+                    <div class="relative col-span-2">
+                        <figure><img src="http://placehold.it/800x250" alt="" class="w-full h-48 object-cover"></figure>
+                        <!-- Headline Overlay: small -->
+                        <div class="absolute bottom-0 left-0 overflow-hidden p-4 w-full bg-opaque-40">
+                            <!-- Tag -->
+                            <div class="mb-2">
+                                <a class="bg-green-700 text-green-100 py-1 px-2 uppercase">Science</a>
+                            </div>
+                            
+                            <h2 class="leading-none text-lg text-gray-200 hover:text-gray-100 cursor-pointer">
+                                Asperiores est nulla voluptas nihil eligendi inventore. 
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <figure><img src="http://placehold.it/400x250" alt="" class="w-full h-48 object-cover"></figure>
+                        <!-- Headline Overlay: small -->
+                        <div class="absolute bottom-0 left-0 overflow-hidden p-4 w-full bg-opaque-40">
+                            <!-- Tag -->
+                            <div class="mb-2">
+                                <a class="bg-green-700 text-green-100 py-1 px-2 uppercase">Science</a>
+                            </div>
+
+                            <h2 class="leading-none text-lg text-gray-200 hover:text-gray-100 cursor-pointer">
+                                Asperiores est nulla voluptas nihil eligendi inventore. 
+                            </h2>
+                        </div>
+                        
+                    </div>
+                    <div class="relative">
+                        <figure><img src="http://placehold.it/400x250" alt="" class="w-full h-48 object-cover"></figure>
+                        <!-- Headline Overlay: small -->
+                        <div class="absolute bottom-0 left-0 overflow-hidden p-4 w-full bg-opaque-40">
+                            <!-- Tag -->
+                            <div class="mb-2">
+                                <a class="bg-green-700 text-green-100 py-1 px-2 uppercase">Science</a>
+                            </div>
+
+                            <h2 class="leading-none text-lg text-gray-200 hover:text-gray-100 cursor-pointer">
+                                Asperiores est nulla voluptas nihil eligendi inventore. 
+                            </h2>
+                        </div>
+                        <!-- Headline Overlay -->
+                        
                     </div>
                 </div>
-                <div
-                    class="px-2 pt-2 pb-4 sm:flex sm:p-0 sm:pr-4 text-gray-600"
-                >
-                    <a
-                        class="block hover:bg-red-300 px-2 hover:text-red-700 sm:pt-4"
-                        href=""
-                        >Request</a
-                    >
-                    <a
-                        class="block hover:bg-red-300 px-2 hover:text-red-700 mt-1 sm:mt-0 sm:pt-4"
-                        href=""
-                        >Submit</a
-                    >
-                    <a
-                        class="block hover:bg-red-300 px-2 hover:text-red-700 mt-1 sm:mt-0 sm:pt-4"
-                        href=""
-                        >Login</a
-                    >
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto">
+                <div class="flex -m-6">
+                    <!-- Top stories -->
+                    <div class="w-2/3 px-6">
+                        <!-- Category selector -->
+                        <div class="border-b-2 border-red-700 flex items-center justify-between w-full">
+                            <button class="py-2 px- bg-red-700 text-red-100 text-lg font-semibold tracking-wider">Top Stories</button>
+
+                            <div class="py-2">
+                                <a href="" class="px-3 text-gray-800 hover:text-red-700">Politics</a>
+                                <a href="" class="px-3 text-gray-800 hover:text-red-700">Fashion</a>
+                                <a href="" class="px-3 text-gray-800 hover:text-red-700">Travel</a>
+                                <a href="" class="px-3 text-gray-800 hover:text-red-700">Gadget</a>
+                                <a href="" class="px-3 text-gray-800 hover:text-red-700">
+                                    More
+                                    <i class="fas fa-caret-right text-red-700 inline-block ml-3 py-1 px-2 border border-red-700"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="w-1/3 px-6"></div>
                 </div>
-            </header>
-        </div>
+            </div>
+        </section>
     </body>
 </html>
