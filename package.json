@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx live-server public",
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "start": "live-server public",
+    "build": "postcss src/styles.css -o public/styles.css"
   },
   "keywords": [],
   "author": "Touhidur Rahman <touhidrahman1987@gmail.com> (http://github.com/touhidrahman)",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^9.7.4",
-    "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0"
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
